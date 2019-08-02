@@ -1,6 +1,6 @@
 <template>
   <div class="blog-post">
-    {{description}}
+    <img :src="imgSrc" width="100%">
   </div>
 </template>
 
@@ -9,9 +9,12 @@
 export default {
   name: 'BlogPost',
   props: {
-    description: String,
-    title: String,
-    imageLink: String,
+    postDetails: Object,
+  },
+  data() {
+    return {
+      imgSrc: this.postDetails.imageUrl,
+    };
   },
 };
 </script>
