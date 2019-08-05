@@ -7,6 +7,5 @@
 <style>
 #app {
   height: 100%;
-  background: #F5FBEF;
 }
 </style>

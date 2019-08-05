@@ -41,11 +41,9 @@ export default {
 
 <style scoped>
 .blog{
-    /**background: lightcyan;*/
-    background:  url(https://bestanimations.com/Nature/Water/underwater-ocean-gif.gif) no-repeat center center fixed;
+    background: whitesmoke;
     background-size: cover;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-top: 30px;
+    padding: 0% 10% 5% 10%;
 }
 </style>
